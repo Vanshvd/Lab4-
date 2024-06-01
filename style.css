@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a8ee8;
+    color: #171617;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d62828;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    border: 2px solid #d54242; /* Add border to sections */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+h2 {
+    color: #c5f48b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: #342ee4;
+    background-color: #d7b6fc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Keyframes Animation */
+@keyframes example {
+    0% {
+        background-color: #db1212;
+    }
+    50% {
+        background-color: #d61515;
+    }
+    100% {
+        background-color: #d91616;
+    }
+}
+
+/* Active and Focus Styles */
+nav ul li a:active,
+nav ul li a:focus {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #cde1f0;
+    color: #101110;
+    text-align: center;
+    padding: 20px 0;
+}
+
